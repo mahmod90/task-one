@@ -1,0 +1,150 @@
+ body {
+    background-color: #121417;
+    /* height: 100vh */
+ }
+
+:root {
+    --main-color: #ff9800;
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: #121417;
+    height: 100vh */
+} 
+
+
+
+.test-one {
+    background-color: #1C252D;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+}
+@media (min-width: 370px) {
+    .test-one {
+       width: 360px;
+    }
+   }
+
+.test-one .logo {
+
+    padding: 30px 0px 5px 15px;
+}
+
+.test-one .logo img {
+    width: 30px;
+    background-color: #252d37;
+    padding-top: 20;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+
+.test-one .text-intro {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 13px 0px;
+}
+
+.test-one .text-intro h1 {
+    color: white
+}
+
+@media (min-width: 420px) {
+    
+/* .test-one .text-intro h1 {
+    padding: 15px;
+    color: rgb(224, 93, 93)
+} */
+}
+
+.test-one .text-intro p {
+    color: #5e6264;
+    line-height: 1.5;
+}
+
+.test-one .button-test .numbers  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.test-one .button-test li .listener{
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #252d37;
+    height: 40px;
+    width: 40px;
+    color: #7c8798;
+}
+
+.test-one .button-test li .listener:hover {
+    /* --medium-grey: hsl(216, 12%, 54%); */
+    background-color: var(--medium-grey);;
+    color: white
+}
+
+.test-one .submit {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.test-one .submit .submit-one {
+    width: 84%;
+    background-color: var(--main-color);
+    border: 0;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+/* //////////// */
+
+/* .test-one .button-test {
+    position: relative;
+    top: 80%;
+}
+.test-one .button-test button {
+    border: 0;
+}
+
+.test-one .submit {
+    top: 45%;
+    position: sticky;
+    width: 100%;
+    color: red;
+}
+.test-one .button-test button:hover {
+   color: red;
+}
+.test-one .submit .submit-one {
+    width: 100%;
+    background-color: aqua;
+    border: 0;
+} */
+
+.change {
+padding:10px 20px;
+margin:5px;
+background-color:rgb(73, 65, 65);
+color:#fff;
+border:none;
+outline:none;
+border-radius:5px;
+}
